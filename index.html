@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Safe Sphere</title>
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="images/logo.png"
+          alt="HomeElectric Logo"
+          class="nav__logo change"
+          id="logo_hover"
+          designer="GeorgeCosmin"
+          data-version-number="1.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Operations</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Open account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header_title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+        <!-- Green highlight effect -->
+          <span class="highlight">   Safe Sphere </span></h1>
+         <h1>Where Safety Meets Simplicity.<br />
+                  </h1>
+        <h4>A smarter way to protect, for peace of mind every day.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="images/hero.png"
+          class="header__img"
+          alt="Minimalist home items"
+        />
+      </div>
+    </header>
+    <!-- End of Header -->
+
+    <!-- Sections -->
+    <!-- Section 1 -->
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a modern house and more.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="images/digital-lazy.jpg"
+          data-src="images/digital.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% Smart, 100% Safe</h5>
+          <p>
+            Simplify, accelerate, and enhance your home with cutting-edge technology. Stay connected and in control of every device, anytime, anywhere, with just your mobile phone
+          </p>
+        </div>
+
+        <div class="features__feature second_child">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-zap"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Smarter Living with Green Energy</h5>
+          <p>
+            Smart isn’t enough—we go beyond. Optimize energy consumption and stay within your desired range. Schedule devices to minimize usage when you're away, on vacation, or simply not using them, ensuring efficiency every step of the way.
+          </p>
+        </div>
+        <img
+          src="images/grow-lazy.jpg"
+          data-src="images/grow.jpg"
+          alt="Plant"
+          class="features__img lazy-img second_child_img"
+        />
+
+        <img
+          src="images/card-lazy.jpg"
+          data-src="images/card.jpg"
+          alt="Credit card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-smartphone"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Ready ? Make the change today</h5>
+          <p>
+            We have all the necessary tools, devices and a wealth of knowledge,
+            with a tone of experience. Decide what you need and set a plan, this
+            is about you and your home.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End of Section 1 -->
+
+    <!-- Section 2 -->
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">
+          Everything as quick and as simple as possible.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn btn__tab--hover--1 operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant service
+          </button>
+          <button
+            class="btn btn__tab--hover--2 operations__tab operations__tab--2 operations__tab--active"
+            data-tab="2"
+          >
+            <span>02</span>Enhanced efficiency
+          </button>
+          <button
+            class="btn btn__tab--hover--3 operations__tab operations__tab--3 operations__tab--active"
+            data-tab="3"
+          >
+            <span>03</span>Green energy
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            <!-- Make the network using smart metodology! Efficiently and effectively -->
+            Crafting an Efficient and Effective Network Using Smart Methodology
+          </h5>
+          <p>
+          Efficiency is at the core of Safe Sphere. Traditional systems often suffer from resource wastage and bottlenecks, hindering smooth operation. Our smart approach tackles these issues with intelligent resource allocation, load balancing, and traffic optimization. By maximizing performance and minimizing downtime, Safe Sphere ensures uninterrupted safety and a seamless smart home experience.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-refresh-ccw"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            <!-- Keep it low and effective as possible, with low energy consumption -->
+            Optimal Efficiency for a Sustainable Future
+          </h5>
+          <p>
+           Energy efficiency is the cornerstone of our philosophy. Traditional systems tend to consume excessive power, leading to environmental strain and higher costs. Safe Sphere takes a low-energy, high-impact approach by integrating advanced techniques like voltage scaling, power gating, and adaptive clocking. These innovations ensure optimal power utilization while maintaining top performance, paving the way for eco-friendly, sustainable living.
+
+
+
+
+
+
+
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="images/icons.svg#icon-rotate-cw"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+          Empowering Sustainability with Smart Solutions.
+          </h5>
+          <p>
+         Green energy shines brightest when paired with the right tools. The fusion of sustainable energy and advanced technology creates a virtuous cycle, amplifying efficiency and driving progress. At Safe Sphere, environmental preservation isn’t just a goal—it’s integral to our design. This synergy exemplifies human ingenuity, crafting a future where prosperity and sustainability coexist seamlessly, proving that "Green energy is always the best option when combined with the right tools."
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End of Section 2 -->
+
+    <!-- Section 3 -->
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millions of customers are already making their lifes simpler.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              Since we installed Safe Sphere’s advanced gas leak detection system, our home’s safety has greatly improved. The convenience of real-time alerts and remote monitoring ensures we stay protected from potential hazards. It's incredibly reassuring to see our commitment to a safer, more secure home reflected in our peace of mind, all while adapting to our unique Indian environment.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-1.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">MOHIT KHEREDA</h6>
+              <p class="testimonial__location">Mumbai, Maharashtra</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              Upgrading to a smart home setup with Safe Sphere has been one of our best decisions. With smart sensors for humidity and temperature, we can easily monitor and control our indoor environment remotely. This has not only provided us with peace of mind but has also led to a noticeable reduction in humidity-related issues and energy consumption. Our savings are impressive, and we’re delighted with the positive impact on our household comfort and budget.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-2.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Zara Khan</h6>
+              <p class="testimonial__location">Nagpur, Maharashtra</p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from old-school systems
+            </h5>
+            <blockquote class="testimonial__text">
+              Investing in a smart irrigation system for our garden has been a
+              game-changer. We can now adjust watering schedules based on
+              weather forecasts and real-time moisture levels. Our water usage
+              has decreased significantly, and our plants are thriving. It's
+              wonderful to contribute to water conservation while enjoying the
+              beauty of our well-maintained garden.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-3.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Zoya Khan</h6>
+              <p class="testimonial__location">Bangalore, Karnataka</p>
+            </address>
+          </div>
+        </div>
+        <div class="slide slide--4">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Best idea ever! Working things out
+            </h5>
+            <blockquote class="testimonial__text">
+              Switching to smart blinds has brought unexpected benefits. Not
+              only do they adjust to natural light, reducing our reliance on
+              artificial lighting, but they also contribute to maintaining a
+              comfortable indoor temperature. Our HVAC system runs less
+              frequently, resulting in lower energy bills. We're pleased with
+              the improved ambiance and the practical energy-saving aspect.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-4.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Sanjeev Pathak</h6>
+              <p class="testimonial__location">Vanarasi, Uttar Pradesh</p>
+            </address>
+          </div>
+        </div>
+        <div class="slide slide--5">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              New possibilities, new ideas! Can't wait to see what's next
+            </h5>
+            <blockquote class="testimonial__text">
+              As a tech enthusiast, integrating a smart home energy monitoring
+              system was a fascinating project. The real-time insights into our
+              energy consumption have been eye-opening. With the ability to
+              identify energy-intensive activities, we've optimized our routines
+              to use energy more efficiently. It's satisfying to witness the
+              positive impact on both the environment and our wallet.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-5.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Rohit Rangdhol</h6>
+              <p class="testimonial__location">Calcutta, West Bengal</p>
+            </address>
+          </div>
+        </div>
+        <div class="slide slide--6">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              This makes things so easy, I am so excited
+            </h5>
+            <blockquote class="testimonial__text">
+              Transitioning to smart appliances in our kitchen was a great
+              decision. Our smart refrigerator alerts us when the door is left
+              open and helps us track food expiration dates, reducing wastage.
+              Plus, the energy-efficient dishwasher and oven have noticeably
+              lowered our electricity bill. It's reassuring to know we're making
+              eco-friendly choices without compromising convenience.!
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="images/user-6.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">Virat Kohli</h6>
+              <p class="testimonial__location">Ahmedabad, Gujarat  </p>
+            </address>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+    <!-- End of Section 3 -->
+    <!-- End of Sections -->
+
+    <!-- Sign up -->
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best time to make it happen is today! Sign up and get our excluse
+          24h support!
+        </h3>
+      </div>
+      <button class="btn btn--open--account btn--show-modal">
+        Open your free account today!
+      </button>
+    </section>
+    <!-- End of Sign up -->
+
+    <!-- Footer -->
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Our services</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Optionals</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img src="images/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        <a
+          class="footer__link linkedin-link"
+          href="https://www.linkedin.com/in/pathak-sanjeev07/"
+          target=""
+          >Team Safe Sphere</a>.</p>
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Modal hidden -->
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your first account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn btn__next--step">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+    <!-- End of Modal hidden -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
