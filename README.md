@@ -3,13 +3,9 @@
 > **Where Safety Meets Simplicity**  
 A smarter way to protect your home — designed with simplicity, powered by smart technology.
 
----
-
 ## 🔒 About the Project
 
-**Safe Sphere** is a smart home safety interface that integrates modern design with essential home safety functionalities. It allows users to monitor and manage their home environment, ensuring security, energy efficiency, and peace of mind.
-
----
+**Safe Sphere** is a smart home safety interface that integrates modern design with essential home safety functionalities. It allows users to monitor and manage their home environment, ensuring security, energy efficiency and peace of mind.
 
 ## 🚀 Features
 
@@ -19,8 +15,6 @@ A smarter way to protect your home — designed with simplicity, powered by smar
 - 🔧 Smooth **user operations** with modal pop-ups
 - 📈 **Responsive** layout and animations
 
----
-
 ## 🛠️ Technologies Used
 
 - **HTML5**
@@ -29,16 +23,10 @@ A smarter way to protect your home — designed with simplicity, powered by smar
 - **Google Fonts**
 - **Responsive Design Principles**
 
----
-
 ## 📸 Screenshots
 
 > ![Screenshot 2025-07-05 102506](https://github.com/user-attachments/assets/97bea8b9-33e4-4e99-a5ae-4ab1aa759372)
 > ![Screenshot 2025-07-05 102538](https://github.com/user-attachments/assets/69e42533-0c43-4de1-a9fa-62359c771986)
-
-
-
----
 
 ## 📂 Folder Structure
 
@@ -51,7 +39,6 @@ A smarter way to protect your home — designed with simplicity, powered by smar
 ├── .prettierrc
 ├── settings.json
 └── /images
----
 
 ## 🧠 What I Learned
 
@@ -60,13 +47,9 @@ A smarter way to protect your home — designed with simplicity, powered by smar
 - Creating accessible, responsive UI  
 - Git + GitHub for project management
 
----
-
 ## 🧾 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
 
 ## 🤝 Connect
 
